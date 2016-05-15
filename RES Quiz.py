@@ -120,7 +120,7 @@ window.state("zoomed") #maximises window
 window.configure(background=BGcolour) #orange background colour
 
 #Insert logo in top middle of screen
-pic = tk.PhotoImage(file="C:\\Users\\cameron\\Documents\\Python\\RES Quiz\\logo.gif")
+pic = tk.PhotoImage(file="logo.gif")
 logo = tk.Label(image=pic)
 logo.place(rely=0.03, relx=0.44)
 
